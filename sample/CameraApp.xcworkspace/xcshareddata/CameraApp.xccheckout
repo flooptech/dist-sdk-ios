@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C841633C-56A7-4165-BAD0-E82D7C00D6A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CameraApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F671703E-EDEA-49C9-8BFA-DD8200C7C147</key>
+		<string>ssh://github.com/sanxfxteam/4-iq.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sdk/sample-banana/CameraApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F671703E-EDEA-49C9-8BFA-DD8200C7C147</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/sanxfxteam/4-iq.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F671703E-EDEA-49C9-8BFA-DD8200C7C147</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F671703E-EDEA-49C9-8BFA-DD8200C7C147</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4-iq</string>
+		</dict>
+	</array>
+</dict>
+</plist>
