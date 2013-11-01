@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
-  s.name     = 'Floop'
+
+  s.name     = 'floop'
   s.version  = '1.5'
   s.summary  = 'A COPPA-compliant sharing framework for kids apps.'
   s.author = { 'Floop' => 'support-dev@getfloop.com' }
@@ -17,3 +18,5 @@ Pod::Spec.new do |s|
   
   s.ios.vendored_frameworks = 'floopsdk.embeddedframework/floopsdk.framework'
   s.resources = 'floopsdk.embeddedframework/floopsdk.bundle'
+
+end
