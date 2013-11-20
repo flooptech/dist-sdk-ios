@@ -27,11 +27,12 @@
 		4DEA02261790894C003BB34D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEA02251790894C003BB34D /* QuartzCore.framework */; };
 		4DEA022817908957003BB34D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEA022717908957003BB34D /* CoreImage.framework */; };
 		4DEA022A1790896A003BB34D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEA02291790896A003BB34D /* AdSupport.framework */; };
-		BF9C82CE180EC780000C4928 /* floopsdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF9C82CC180EC780000C4928 /* floopsdk.bundle */; };
+		A767B5F69AC9454F81316944 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C28409AD51A74DF5BE50C31D /* libPods.a */; };
 		BF9C82CF180EC780000C4928 /* floopsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9C82CD180EC780000C4928 /* floopsdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0438FFF4190A4155A935F129 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		35791CBB171588890011FD1F /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35791CBE171588890011FD1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35791CC0171588890011FD1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +60,7 @@
 		4DEA02291790896A003BB34D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		BF9C82CC180EC780000C4928 /* floopsdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = floopsdk.bundle; sourceTree = "<group>"; };
 		BF9C82CD180EC780000C4928 /* floopsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = floopsdk.framework; sourceTree = "<group>"; };
+		C28409AD51A74DF5BE50C31D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				35791CBF171588890011FD1F /* UIKit.framework in Frameworks */,
 				35791CC1171588890011FD1F /* Foundation.framework in Frameworks */,
 				35791CC3171588890011FD1F /* CoreGraphics.framework in Frameworks */,
+				A767B5F69AC9454F81316944 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 				35791CC4171588890011FD1F /* CameraApp */,
 				35791CBD171588890011FD1F /* Frameworks */,
 				35791CBC171588890011FD1F /* Products */,
+				0438FFF4190A4155A935F129 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +118,7 @@
 				35791CBE171588890011FD1F /* UIKit.framework */,
 				35791CC0171588890011FD1F /* Foundation.framework */,
 				35791CC2171588890011FD1F /* CoreGraphics.framework */,
+				C28409AD51A74DF5BE50C31D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35791CDE171588890011FD1F /* Build configuration list for PBXNativeTarget "CameraApp" */;
 			buildPhases = (
+				6B7D85AEB0124D38AEAAAB83 /* Check Pods Manifest.lock */,
 				35791CB7171588890011FD1F /* Sources */,
 				35791CB8171588890011FD1F /* Frameworks */,
 				35791CB9171588890011FD1F /* Resources */,
+				D1C95A39B1A34696ABBE94BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,7 +217,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35791CC9171588890011FD1F /* InfoPlist.strings in Resources */,
-				BF9C82CE180EC780000C4928 /* floopsdk.bundle in Resources */,
 				35791CD1171588890011FD1F /* Default.png in Resources */,
 				4DABCA9317F4A96700D5A548 /* floop-share-button.png in Resources */,
 				35791CD3171588890011FD1F /* Default@2x.png in Resources */,
@@ -221,6 +227,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B7D85AEB0124D38AEAAAB83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C95A39B1A34696ABBE94BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		35791CB7171588890011FD1F /* Sources */ = {
@@ -317,15 +356,13 @@
 		};
 		35791CDF171588890011FD1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0438FFF4190A4155A935F129 /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../floopsdk.embeddedframework\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraApp/CameraApp-Prefix.pch";
 				INFOPLIST_FILE = "CameraApp/CameraApp-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -333,16 +370,14 @@
 		};
 		35791CE0171588890011FD1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0438FFF4190A4155A935F129 /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../floopsdk.embeddedframework\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraApp/CameraApp-Prefix.pch";
 				INFOPLIST_FILE = "CameraApp/CameraApp-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

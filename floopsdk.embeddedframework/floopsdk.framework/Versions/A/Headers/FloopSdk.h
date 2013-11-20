@@ -12,4 +12,4 @@
 #import "FloopSdkStatus.h"
 #import "FloopSdkBlocks.h"
 #import "FloopSdkManager.h"
-
+#import "FloopSharingResult.h"

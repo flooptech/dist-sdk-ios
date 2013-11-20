@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 
+/**
+ * `FPLogLevel` represents the logging verbosity level.
+ */
 typedef enum
 {
     FPLogLevelDebug,

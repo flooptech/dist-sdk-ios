@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C841633C-56A7-4165-BAD0-E82D7C00D6A2</string>
+	<string>DBA0F2E8-1E40-41C7-B7D8-7F58B95E16DF</string>
 	<key>IDESourceControlProjectName</key>
 	<string>CameraApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F671703E-EDEA-49C9-8BFA-DD8200C7C147</key>
-		<string>ssh://github.com/sanxfxteam/4-iq.git</string>
+		<key>88E7ABD0-284D-45DC-B897-5A6174B54B9B</key>
+		<string>ssh://github.com/flooptech/sdk-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>sdk/sample-banana/CameraApp.xcworkspace</string>
+	<string>sample/CameraApp.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F671703E-EDEA-49C9-8BFA-DD8200C7C147</key>
-		<string>../../..</string>
+		<key>88E7ABD0-284D-45DC-B897-5A6174B54B9B</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/sanxfxteam/4-iq.git</string>
+	<string>ssh://github.com/flooptech/sdk-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F671703E-EDEA-49C9-8BFA-DD8200C7C147</string>
+	<string>88E7ABD0-284D-45DC-B897-5A6174B54B9B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F671703E-EDEA-49C9-8BFA-DD8200C7C147</string>
+			<string>88E7ABD0-284D-45DC-B897-5A6174B54B9B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>4-iq</string>
+			<string>sdk-ios</string>
 		</dict>
 	</array>
 </dict>

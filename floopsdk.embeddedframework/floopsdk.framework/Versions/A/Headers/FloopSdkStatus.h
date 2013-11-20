@@ -2,11 +2,12 @@
 //  FloopSdkStatus.h
 //  floopsdk
 //
-//  Created by Vincent Côté-Roy on 13-07-08.
 //  Copyright (c) 2013 Floop. All rights reserved.
 //
 
-
+/**
+ * `FloopSdkStatus` represents the various states the sdk can be in.
+ */
 typedef enum {
     FloopSdkStatusNotInitialized,
     FloopSdkStatusInitializing,

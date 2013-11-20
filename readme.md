@@ -1,7 +1,11 @@
 Floop iOS SDK Release Notes
 
-Find latest documentation at:
+Find the latest documentation at:
 http://www.getfloop.com/documentation
+
+### Version 1.6 - 2013-11-15
+- exposed the parent gate methods
+
 
 ### Version 1.5 - 2013-10-03
 - improved networking robustness
@@ -29,9 +33,9 @@ http://www.getfloop.com/documentation
 - Developers can customize assets for UI and email.
 - Cross promote other apps through our campaign system.
 
-## Disclaimer: This is preview software -- do not submit your app on the Apple App Store with this version of the SDK.
+## Disclaimer: Please send us an email before publishing to the app store.
 
 ### Known Issues
+
 - New: If you update Sample App from a previous version please delete the app before running the updated sample app.
 - Does not work with landscape display.
-- You need to kill you app and restart it to update the assets from the server.
