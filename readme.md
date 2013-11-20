@@ -1,7 +1,30 @@
-Floop iOS SDK Release Notes
+
+## Installation 
+
+### with Cocoapods
+
+In your project root, create (or edit) a Podfile with:
+
+```
+pod "Floop-iOS", "~> 1.6"
+
+```
+
+See http://cocoapods.org/ for more information on installing and using Cocoapods.
+
+
+### Manual installation:
+
+Please see https://four-iq.appspot.com/docs/sdk-ios/#/integrate-sdk-in-app
+
+
+## Documentation 
 
 Find the latest documentation at:
 http://www.getfloop.com/documentation
+
+
+## Release Notes
 
 ### Version 1.6 - 2013-11-15
 - exposed the parent gate methods
