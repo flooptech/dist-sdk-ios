@@ -55,6 +55,6 @@ http://www.getfloop.com/documentation
 - Developers can customize assets for UI and email.
 - Cross promote other apps through our campaign system.
 
-## Disclaimer: Please send us an email before publishing to the app store.
+## Disclaimer: Please send us an email at support@getfloop.com before publishing to the app store.
 
 Known issues and FAQ are available here: http://getfloop.zendesk.com
