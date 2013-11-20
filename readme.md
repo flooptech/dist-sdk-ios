@@ -1,4 +1,3 @@
-
 ## Installation 
 
 ### with Cocoapods
@@ -58,7 +57,4 @@ http://www.getfloop.com/documentation
 
 ## Disclaimer: Please send us an email before publishing to the app store.
 
-### Known Issues
-
-- New: If you update Sample App from a previous version please delete the app before running the updated sample app.
-- Does not work with landscape display.
+Known issues and FAQ are available here: http://getfloop.zendesk.com
