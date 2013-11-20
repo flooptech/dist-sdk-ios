@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   
   s.source = {
     :git => 'https://github.com/flooptech/dist-sdk-ios.git',
-    :tag => s.version.to_s
+    :branch => s.version.to_s
   }
 
   s.frameworks =  'AdSupport', 'CFNetwork', 'CoreData', 'CoreImage', 'MobileCoreServices', 'SystemConfiguration', 'QuartzCore'
