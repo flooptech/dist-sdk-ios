@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name     = 'floop'
+  s.name     = 'Floop-iOS'
   s.version  = '1.6.1'
   s.summary  = 'A COPPA-compliant sharing framework for kids apps.'
   s.author = { 'Floop' => 'support-dev@getfloop.com' }
