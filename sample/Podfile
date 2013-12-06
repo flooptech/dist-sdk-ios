@@ -1,4 +1,4 @@
 platform :ios, '6.0'
-pod 'floop',    :path => '../../dist-sdk-ios'
+pod 'Floop-iOS',    :path => '../../dist-sdk-ios'
 
 

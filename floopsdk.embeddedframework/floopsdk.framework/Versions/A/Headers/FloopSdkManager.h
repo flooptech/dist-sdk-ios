@@ -47,7 +47,7 @@
 /** 
  Starts the sdk and begins syncing data with the server; this can only be called once.
 */
-- (void)startWithAppID:(NSString*)appID;
+- (void)startWithAppKey:(NSString*)appKey;
 
 /**
  Adds a block to be invoked when the startup server synchronization is completed.

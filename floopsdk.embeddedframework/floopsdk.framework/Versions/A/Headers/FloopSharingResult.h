@@ -15,7 +15,7 @@
 /*
  The method used for sharing. For now returns "floop".
  */
-@property (strong,nonatomic,readonly) NSString* method;
+@property (strong,nonatomic,readonly) NSString* methodDescription;
 
 /*
  Whether the image was actually sent.

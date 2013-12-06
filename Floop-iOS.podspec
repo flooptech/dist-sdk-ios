@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name     = 'Floop-iOS'
-  s.version  = '1.6.1'
+  s.version  = '1.7'
   s.summary  = 'A COPPA-compliant sharing framework for kids apps.'
   s.author = { 'Floop' => 'support-dev@getfloop.com' }
   s.homepage = 'https://getfloop.com/'
@@ -14,10 +14,9 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
 
-  s.frameworks =  'AdSupport', 'CFNetwork', 'CoreData', 'CoreImage', 'MobileCoreServices', 'SystemConfiguration', 'QuartzCore'
+  s.frameworks =  'AdSupport', 'CFNetwork', 'CoreData', 'CoreImage', 'MobileCoreServices', 'SystemConfiguration', 'QuartzCore', 'Social', 'MessageUI', 'CoreMedia', 'CoreVideo', 'OpenGLES', 'AVFoundation'
   s.ios.vendored_libraries = 
   s.ios.vendored_frameworks = 'floopsdk.embeddedframework/floopsdk.framework'
   s.resources = 'floopsdk.embeddedframework/floopsdk.bundle'
 
 end
-

@@ -3,14 +3,15 @@ Floop iOS SDK Release Notes
 Find the latest documentation at:
 http://www.getfloop.com/documentation
 
-### Version 1.6 - 2013-11-15
-- exposed the parent gate methods
+### Version 1.7 - 2013-12-05
+- renamed startWithAppID to startWithAppKey for clarity.
 
+### Version 1.6 - 2013-11-15
+- exposed the parental gate methods
 
 ### Version 1.5 - 2013-10-03
 - improved networking robustness
-- fixed some iOS 7 layout issues (mostly related to status bar changes) 
-
+- fixed some iOS 7 layout issues (mostly related to status bar changes)
 
 ### Version 1.4 - 2013-09-25
 - simplified api
