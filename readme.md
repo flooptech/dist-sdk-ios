@@ -1,7 +1,28 @@
-Floop iOS SDK Release Notes
+## Installation 
+
+### with Cocoapods
+
+In your project root, create (or edit) a Podfile with:
+
+```
+pod "Floop-iOS", "~> 1.6"
+
+```
+
+See http://cocoapods.org/ for more information on installing and using Cocoapods.
+
+
+### Manual installation:
+
+Please see https://four-iq.appspot.com/docs/sdk-ios/#/integrate-sdk-in-app
+
+
+## Documentation 
 
 Find the latest documentation at:
 http://www.getfloop.com/documentation
+
+## Release Notes
 
 ### Version 1.7 - 2013-12-05
 - renamed startWithAppID to startWithAppKey for clarity.
@@ -34,9 +55,6 @@ http://www.getfloop.com/documentation
 - Developers can customize assets for UI and email.
 - Cross promote other apps through our campaign system.
 
-## Disclaimer: Please send us an email before publishing to the app store.
+## Disclaimer: Please send us an email at support@getfloop.com before publishing to the app store.
 
-### Known Issues
-
-- New: If you update Sample App from a previous version please delete the app before running the updated sample app.
-- Does not work with landscape display.
+Known issues and FAQ are available here: http://getfloop.zendesk.com
