@@ -1,3 +1,7 @@
+
+
+This is the iOS version of the Floop SDK, a COPPA-compliant sharing platform for kids.
+
 ## Installation 
 
 ### with Cocoapods
@@ -5,7 +9,8 @@
 In your project root, create (or edit) a Podfile with:
 
 ```
-pod "Floop-iOS", "~> 1.6"
+
+pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.7.2"
 
 ```
 
@@ -23,6 +28,9 @@ Find the latest documentation at:
 http://www.getfloop.com/documentation
 
 ## Release Notes
+
+Find the latest documentation at:
+http://www.getfloop.com/documentation
 
 ### Version 1.7 - 2013-12-05
 - renamed startWithAppID to startWithAppKey for clarity.
@@ -55,6 +63,7 @@ http://www.getfloop.com/documentation
 - Developers can customize assets for UI and email.
 - Cross promote other apps through our campaign system.
 
-## Disclaimer: Please send us an email at support@getfloop.com before publishing to the app store.
+## Disclaimer: Please send us an email before publishing to the app store.
+
 
 Known issues and FAQ are available here: http://getfloop.zendesk.com
