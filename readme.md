@@ -32,6 +32,9 @@ http://www.getfloop.com/documentation
 Find the latest documentation at:
 http://www.getfloop.com/documentation
 
+### Version 1.8 - 2014-02-19
+- Add landscape support to all the views. 
+
 ### Version 1.7 - 2013-12-05
 - renamed startWithAppID to startWithAppKey for clarity.
 
