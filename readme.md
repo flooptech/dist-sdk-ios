@@ -10,7 +10,7 @@ In your project root, create (or edit) a Podfile with:
 
 ```
 
-pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.7.2"
+pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.8.0"
 
 ```
 
@@ -34,6 +34,7 @@ http://www.getfloop.com/documentation
 
 ### Version 1.8 - 2014-02-19
 - Add landscape support to all the views. 
+- Add some localizations (ES,DE,FR,IT) to the Parental Gate.
 
 ### Version 1.7 - 2013-12-05
 - renamed startWithAppID to startWithAppKey for clarity.

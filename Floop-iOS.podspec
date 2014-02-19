@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks =  'AdSupport', 'CFNetwork', 'CoreData', 'CoreImage', 'MobileCoreServices', 'SystemConfiguration', 'QuartzCore', 'Social', 'MessageUI', 'CoreMedia', 'CoreVideo', 'OpenGLES', 'AVFoundation', 'AddressBook', 'AddressBookUI'
-  s.ios.vendored_libraries = 
   s.ios.vendored_frameworks = 'floopsdk.embeddedframework/floopsdk.framework'
   s.resources = 'floopsdk.embeddedframework/floopsdk.bundle'
 
