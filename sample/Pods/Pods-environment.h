@@ -6,9 +6,9 @@
 // project.
 
 
-// floop
-#define COCOAPODS_POD_AVAILABLE_floop
-#define COCOAPODS_VERSION_MAJOR_floop 1
-#define COCOAPODS_VERSION_MINOR_floop 5
-#define COCOAPODS_VERSION_PATCH_floop 0
+// Floop-iOS
+#define COCOAPODS_POD_AVAILABLE_Floop_iOS
+#define COCOAPODS_VERSION_MAJOR_Floop_iOS 1
+#define COCOAPODS_VERSION_MINOR_Floop_iOS 8
+#define COCOAPODS_VERSION_PATCH_Floop_iOS 1
 

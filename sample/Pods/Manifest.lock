@@ -1,14 +1,14 @@
 PODS:
-  - floop (1.5)
+  - Floop-iOS (1.8.1)
 
 DEPENDENCIES:
-  - floop (from `../../dist-sdk-ios`)
+  - Floop-iOS (from `../../dist-sdk-ios`)
 
 EXTERNAL SOURCES:
-  floop:
+  Floop-iOS:
     :path: ../../dist-sdk-ios
 
 SPEC CHECKSUMS:
-  floop: 6a68e5b2fc9e0015ac6379f8b217189da7d2b9c6
+  Floop-iOS: 7960ea69dea3e7afd19b2177fa9191f2d20fc285
 
-COCOAPODS: 0.27.1
+COCOAPODS: 0.26.2

@@ -94,8 +94,8 @@
 {
     [self.aiView startAnimating];
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-    [[FloopSdkManager sharedInstance] shareImage:self.imageView.image completion:^(BOOL success, NSError *error) {
-        NSLog(@"shareImage returned (error: %@)", error);
+    [[FloopSdkManager sharedInstance] shareImage:self.imageView.image completion:^(FloopSharingResult* result, NSError *error) {
+        NSLog(@"shareImage returned (result: %@; error: %@)", result, error);
         [self.aiView stopAnimating];
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     }];

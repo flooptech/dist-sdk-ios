@@ -15,7 +15,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[FloopSdkManager sharedInstance] startWithAppID:@"6febd7e3514e4a4fac0cdb45d40e3d22"];
+    [[FloopSdkManager sharedInstance] startWithAppKey:@"6febd7e3514e4a4fac0cdb45d40e3d22"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
