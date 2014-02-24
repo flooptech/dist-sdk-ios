@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <style type='text/css'>
+
+            body,html, span, div  { /*reset css*/
+                margin: 0;
+                padding: 0;
+                background-color: transparent;
+            }
+
+            #dev {
+                padding-top: 2em;
+                display: none;
+            }
+
+            #ad-root {
+                position:absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+            }
+
+            .anchor-bottom {
+                top:default;
+                bottom: 0;
+            }
+
+
+            .anchor-top {
+                top:0;
+                bottom:default;
+            }
+
+            #ad-container {
+                text-align: center;
+            }
+
+            #ad-container img {
+                background-color: rgba(0,0,0,0.1);
+            }
+
+        </style>
+        
+
+        <script type="text/javascript" language="JavaScript">
+                /*
+                 <![CDATA[
+                 */
+            (function() {
+             var proto = "http:";
+             var host = "cdn.adgear.com";
+             var bucket = "a";
+             if (window.location.protocol == "https:") {
+             proto = "https:";
+             host = "a.adgear.com";
+             bucket = "";
+             }
+             document.writeln('<scr' + 'ipt type="text/ja' + 'vascr' + 'ipt" s' + 'rc="' +
+                              proto + '//' + host + '/' + bucket + '/adgear.js/current/adgear.js' +
+                              '"></scr' + 'ipt>');
+             })();
+             /*
+              ]]>
+              */
+        </script>
+        
+        <script type="text/javascript" language="JavaScript">
+                /*
+                 <![CDATA[
+                 */
+            ADGEAR.tags.script.init();
+            ADGEAR.lang.namespace("ADGEAR.site_callbacks");
+            
+            /*
+             * Make this return a hash of key/value pairs you would like to have automatically
+             * sent through to AdGear via the querystring in every impression:
+             */
+            ADGEAR.site_callbacks.variables = function() {
+                return { };
+            }
+            /*
+             ]]>
+             */
+        </script>
+        
+
+    </head>
+    <body>
+        
+
+        
+        <div id='ad-root' class='anchor-bottom'>
+            <div class="adgear" id='ad-container'>
+                <script type="text/javascript" language="JavaScript">
+                    /*
+                     <![CDATA[
+                     */
+                ADGEAR.tags.script.embed({ "id": "10407024", "chip_key": "73b83d20765f013105d00024e87a30c2" });
+                /*
+                 ]]>
+                 */
+                </script>
+            </div>
+        </div>
+
+
+
+
+        <script type='text/javascript'>
+
+            (function() {
+
+                if ('#dev' === window.location.hash)
+                {
+                    var devNode = document.getElementById('dev');
+                    if (devNode)
+                    {                    
+                        devNode.style.display = 'block';
+                    }
+
+                    var js = document.createElement("script");
+                    js.type = "text/javascript";
+
+                    var curUrl = window.location.href;
+                    var jsUrl = curUrl.replace(/\.[^\.].+$/, '.js')
+                    js.src = jsUrl;
+
+                    document.body.appendChild(js);
+                }
+            })();
+
+        </script>
+
+    </body>
+</html>
