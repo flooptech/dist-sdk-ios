@@ -10,7 +10,7 @@ In your project root, create (or edit) a Podfile with:
 
 ```
 
-pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.8.1"
+pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.8.2"
 
 ```
 
@@ -31,6 +31,9 @@ http://www.getfloop.com/documentation
 
 Find the latest documentation at:
 http://www.getfloop.com/documentation
+
+### Version 1.8.2 - 2014-02-24
+- Fix localization bug
 
 ### Version 1.8.1 - 2014-02-19
 - Allow usage of parental gate without appKey (call startWithAppKey:nil)
