@@ -10,7 +10,7 @@ In your project root, create (or edit) a Podfile with:
 
 ```
 
-pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.8.1"
+pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.8.2"
 
 ```
 
@@ -31,6 +31,14 @@ http://www.getfloop.com/documentation
 
 Find the latest documentation at:
 http://www.getfloop.com/documentation
+
+### Version 1.9.0 - 2014-04-17
+- New Feature: Cross-Promotion. A button that shows a view where you can cross-promote your apps. 
+This view is dynamically generated from your account settings, so you can update witout having to do a new App Store release.
+For more details see the documentation.
+
+### Version 1.8.2 - 2014-02-24
+- Fix localization bug
 
 ### Version 1.8.1 - 2014-02-19
 - Allow usage of parental gate without appKey (call startWithAppKey:nil)

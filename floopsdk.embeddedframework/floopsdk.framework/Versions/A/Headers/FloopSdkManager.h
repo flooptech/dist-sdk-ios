@@ -118,4 +118,8 @@
  */
 @property (nonatomic,readonly) BOOL loggedIn;
 
+- (void)showCrossPromotionPageWithName:(NSString *)name
+                            completion:(FloopCrossPromotionCompletion)completion
+;
+
 @end
