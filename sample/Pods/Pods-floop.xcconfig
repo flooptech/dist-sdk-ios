@@ -1,2 +1,0 @@
-PODS_FLOOP_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../../dist-sdk-ios/floopsdk.embeddedframework"
-PODS_FLOOP_OTHER_LDFLAGS = -framework AdSupport -framework CFNetwork -framework CoreData -framework CoreImage -framework MobileCoreServices -framework QuartzCore -framework SystemConfiguration -framework floopsdk

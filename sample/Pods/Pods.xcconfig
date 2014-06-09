@@ -1,5 +1,6 @@
 FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../../dist-sdk-ios/floopsdk.embeddedframework"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Floop-iOS"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/Floop-iOS"
 OTHER_LDFLAGS = -ObjC -framework AVFoundation -framework AdSupport -framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreData -framework CoreImage -framework CoreMedia -framework CoreVideo -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework Social -framework SystemConfiguration -framework floopsdk
 PODS_ROOT = ${SRCROOT}/Pods

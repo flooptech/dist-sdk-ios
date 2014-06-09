@@ -8,7 +8,8 @@
 
 // Floop-iOS
 #define COCOAPODS_POD_AVAILABLE_Floop_iOS
-#define COCOAPODS_VERSION_MAJOR_Floop_iOS 1
-#define COCOAPODS_VERSION_MINOR_Floop_iOS 8
-#define COCOAPODS_VERSION_PATCH_Floop_iOS 1
+// This library does not follow semantic-versioning,
+// so we were not able to define version macros.
+// Please contact the author.
+// Version: 1.9.0.1.
 

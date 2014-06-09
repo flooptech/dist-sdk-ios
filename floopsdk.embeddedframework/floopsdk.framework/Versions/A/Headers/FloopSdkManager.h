@@ -122,4 +122,22 @@
                             completion:(FloopCrossPromotionCompletion)completion
 ;
 
+
+- (void)trackAppEvent:(NSString*)eventName
+;
+
+- (void)trackAppEvent:(NSString *)eventName
+           parameters:(NSDictionary*)parameters
+;
+
+- (void)trackAppEvent:(NSString *)eventName
+              success:(BOOL)success
+;
+
+- (void)trackAppEvent:(NSString *)eventName
+              success:(BOOL)success
+           parameters:(NSDictionary*)parameters
+;
+
+
 @end

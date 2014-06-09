@@ -10,7 +10,7 @@ In your project root, create (or edit) a Podfile with:
 
 ```
 
-pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.8.2"
+pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.9.1"
 
 ```
 
@@ -31,6 +31,14 @@ http://www.getfloop.com/documentation
 
 Find the latest documentation at:
 http://www.getfloop.com/documentation
+
+
+### Version 1.9.1 - 2014-06-09
+- Beta: Added ability to track custom analytics events. See the trackAppEvent methods in FloopSdkManager. To enable this feature for your account, please contact support.
+- Fixed intermittent crash issue with parental gate for arm64 builds.
+
+### Version 1.9.0.1 - 2014-04-29
+- Fixed duplicate symbol issue with Reachability users 
 
 ### Version 1.9.0 - 2014-04-17
 - New Feature: Cross-Promotion. A button that shows a view where you can cross-promote your apps. 
