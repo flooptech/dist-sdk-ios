@@ -2,7 +2,7 @@
 
 This is the iOS version of the Floop SDK, a COPPA-compliant sharing platform for kids.
 
-## Installation 
+## Installation
 
 ### with Cocoapods
 
@@ -22,7 +22,7 @@ See http://cocoapods.org/ for more information on installing and using Cocoapods
 Please see https://four-iq.appspot.com/docs/sdk-ios/#/integrate-sdk-in-app
 
 
-## Documentation 
+## Documentation
 
 Find the latest documentation at:
 http://www.getfloop.com/documentation
@@ -33,15 +33,18 @@ Find the latest documentation at:
 http://www.getfloop.com/documentation
 
 
+### Version 1.9.2 - 2014-08-21
+- New feature: Video Gallery. Add a button that will show a browsable video gallery.
+
 ### Version 1.9.1 - 2014-06-09
 - Beta: Added ability to track custom analytics events. See the trackAppEvent methods in FloopSdkManager. To enable this feature for your account, please contact support.
 - Fixed intermittent crash issue with parental gate for arm64 builds.
 
 ### Version 1.9.0.1 - 2014-04-29
-- Fixed duplicate symbol issue with Reachability users 
+- Fixed duplicate symbol issue with Reachability users
 
 ### Version 1.9.0 - 2014-04-17
-- New Feature: Cross-Promotion. A button that shows a view where you can cross-promote your apps. 
+- New Feature: Cross-Promotion. A button that shows a view where you can cross-promote your apps.
 This view is dynamically generated from your account settings, so you can update witout having to do a new App Store release.
 For more details see the documentation.
 
@@ -52,7 +55,7 @@ For more details see the documentation.
 - Allow usage of parental gate without appKey (call startWithAppKey:nil)
 
 ### Version 1.8 - 2014-02-19
-- Add landscape support to all the views. 
+- Add landscape support to all the views.
 - Add some localizations (ES,DE,FR,IT) to the Parental Gate.
 
 ### Version 1.7 - 2013-12-05
