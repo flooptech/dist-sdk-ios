@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FloopWebFeatureButton.h"
 
-@interface FloopCrossPromotionButton : UIButton
+@interface FloopCrossPromotionButton : FloopWebFeatureButton
 
 @property (strong,nonatomic) NSString* promoName;
 

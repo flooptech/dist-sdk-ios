@@ -11,6 +11,7 @@
 #import "FPLogLevel.h"
 #import "FloopSdkStatus.h"
 #import "FloopSdkBlocks.h"
+#import "FloopAdView.h"
 
 
 
@@ -118,8 +119,9 @@
  */
 @property (nonatomic,readonly) BOOL loggedIn;
 
+
 - (void)showCrossPromotionPageWithName:(NSString *)name
-                            completion:(FloopCrossPromotionCompletion)completion
+                            completion:(FloopWebFeatureCompletion)completion
 ;
 
 
@@ -139,5 +141,10 @@
            parameters:(NSDictionary*)parameters
 ;
 
+- (FloopAdView*)showAdUnitWithID:(NSString*)floopAdUnitID
+                   maximumHeight:(NSInteger)maxHeight
+                          anchor:(FloopPlacementAnchor)anchor
+                       superview:(UIView *)superview
+;
 
 @end

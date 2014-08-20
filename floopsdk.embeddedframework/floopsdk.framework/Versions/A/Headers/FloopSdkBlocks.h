@@ -16,4 +16,4 @@ typedef void (^FloopStartCompletionBlock)(FloopSdkStatus status, NSError* error)
 typedef void (^FloopAuthCompletionBlock)(FloopSdkStatus status, NSError* error);
 typedef void (^FloopSharingCompletionBlock)(FloopSharingResult* result, NSError* error);
 typedef void (^FloopParentalGateCompletionBlock)(BOOL success);
-typedef void (^FloopCrossPromotionCompletion)(NSString* downloadedAppID);
+typedef void (^FloopWebFeatureCompletion)();

@@ -9,7 +9,14 @@
 #import <XCTest/XCTest.h>
 #import <floopsdk/floopsdk.h>
 
+typedef void (^AsyncTestCompletion)();
+typedef void (^AsyncTestBlock)(AsyncTestCompletion asyncCompletion);
+
 @interface SampleAppTests : XCTestCase
+
+@end
+
+@interface TestNSOperation : NSOperation
 
 @end
 
@@ -27,29 +34,46 @@
     [super tearDown];
 }
 
+-(void)testInit
+{
+    XCTAssertNotNil([FloopSdkManager sharedInstance]);
+}
 
 - (void)testStart
 {
-    __block BOOL done = NO;
     
-    [FloopSdkManager setLogLevel:FPLogLevelDebug];
-    
-    [[FloopSdkManager sharedInstance] startWithAppKey:@"6febd7e3514e4a4fac0cdb45d40e3d22"];
-    
-    [[FloopSdkManager sharedInstance] addStartupCompletionBlock:^(FloopSdkStatus status, NSError *error) {
+    [self doAsyncTest:^(AsyncTestCompletion asyncCompletion) {
         
-        XCTAssertEqual(FloopSdkStatusLoggedOut, status, @"Expected status %d, got %d", FloopSdkStatusLoggedOut, status);
-        XCTAssertNil(error, @"Expected no error, got %@", error);
         
-        //        [self notify:kXCTUnitWaitStatusSuccess];
-        done = YES;
+        [[FloopSdkManager sharedInstance] startWithAppKey:@"6febd7e3514e4a4fac0cdb45d40e3d22"];
+        
+        [[FloopSdkManager sharedInstance] addStartupCompletionBlock:^(FloopSdkStatus status, NSError *error) {
+            
+            XCTAssertNotEqual(FloopSdkStatusError, status, @"Expected no error");
+            XCTAssertNil(error, @"Expected no error, got %@", error);
+            
+            asyncCompletion();
+        }];
     }];
     
+}
+
+
+
+- (void)doAsyncTest:(AsyncTestBlock)test
+{
+    __block BOOL done = NO;
+    
+    AsyncTestCompletion completion = ^{
+        done = YES;
+    };
     
     const NSTimeInterval maxElapsed = 3;
     const NSTimeInterval intervalCheck = 0.1;
     
     NSDate* start = [NSDate date];
+    
+    test(completion);
     
     @autoreleasepool {
         
@@ -66,8 +90,97 @@
         
     }
     
+}
+
+
+
+@end
+
+
+
+typedef void (^BoolBlock)(BOOL success);
+typedef void (^VoidBlock)();
+typedef void (^CompletionBlock)(id data, NSError* error);
+typedef void (^WorkBlock)(CompletionBlock completion);
+typedef void (^VoidCompletionBlock)();
+typedef void (^VoidWorkBlock)(VoidCompletionBlock completion);
+
+
+
+@interface TestNSOperation()
+
+@property (strong,nonatomic) WorkBlock work;
+@property (strong,nonatomic) CompletionBlock completion;
+
+
+@property (nonatomic) BOOL wasStarted;
+@property (nonatomic) BOOL isFinished;
+
+@end
+
+@implementation TestNSOperation
+
++ (TestNSOperation*)operationForWork:(WorkBlock)work
+                                completion:(CompletionBlock)completion
+{
+    TestNSOperation* op = [[self alloc] init];
+    op.work = work;
+    op.completion = completion;
+    return op;
+}
+
+- (void)start
+{
+    NSAssert(!self.wasStarted, @"already started");
     
+    if(self.wasStarted)
+    {
+        return;
+    }
+    else
+    {
+        self.wasStarted = YES;
+    }
     
+    if ([self isCancelled])
+    {
+        [self setIsFinished:YES];
+    }
+    else
+    {
+        [self setIsFinished:NO];
+        self.work(^(id data, id error){
+            [self completeWithData:data error:error];
+        });
+    }
+}
+
+- (BOOL)isConcurrent
+{
+    return YES;
+}
+
+- (void)completeWithData:(id)data
+                   error:(id)error
+{
+    [self setIsFinished:YES];
+    if (self.completion)
+    {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            self.completion(data, error);
+        });
+    }
+}
+
+- (BOOL)isExecuting
+{
+    return !self.isFinished;
+}
+
+
++(BOOL)automaticallyNotifiesObserversForKey:(NSString*)key
+{
+    return YES;
 }
 
 
