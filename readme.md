@@ -33,6 +33,9 @@ Find the latest documentation at:
 http://www.getfloop.com/documentation
 
 
+### Version 1.9.2.1 - 2014-09-12
+- Added Greek localization to the Parental Gate feature.
+
 ### Version 1.9.2 - 2014-08-21
 - New feature: Video Gallery. Add a button that will show a browsable video gallery.
 
