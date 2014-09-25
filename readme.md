@@ -33,6 +33,10 @@ Find the latest documentation at:
 http://www.getfloop.com/documentation
 
 
+
+### Version 1.9.2.2 - 2014-09-23
+- bugfixes to analytics
+
 ### Version 1.9.2.1 - 2014-09-12
 - Added Greek localization to the Parental Gate feature.
 
