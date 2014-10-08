@@ -1,7 +1,2 @@
 platform :ios, '6.0'
 pod 'Floop-iOS',    :path => '../../dist-sdk-ios'
-
-#target :CameraAppTests, :exclusive => true do
-#    pod 'XCTAsyncTestCase'
-#end
-

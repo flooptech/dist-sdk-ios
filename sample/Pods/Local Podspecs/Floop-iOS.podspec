@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name     = 'Floop-iOS'
-  s.version  = '1.9.0.1'
+  s.version  = '1.9.2.2'
   s.summary  = 'A COPPA-compliant sharing framework for kids apps.'
   s.author = { 'Floop' => 'support-dev@getfloop.com' }
   s.homepage = 'https://getfloop.com/'
   s.license = { :type => 'Commercial', :file => 'terms-of-service.html' }
   s.requires_arc = true
   s.ios.deployment_target = '6.0'
-  
+
   s.source = {
     :git => 'https://github.com/flooptech/dist-sdk-ios.git',
     :tag => s.version.to_s

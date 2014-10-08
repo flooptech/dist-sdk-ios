@@ -10,33 +10,33 @@
 	<string>SampleApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5F788724-E1F3-46F2-9418-32E820F8C92B</key>
+		<key>7FD6A9A16A763CA05816F4E95F10A71A9133D84E</key>
 		<string>ssh://github.com/flooptech/dist-sdk-ios.git</string>
-		<key>88E7ABD0-284D-45DC-B897-5A6174B54B9B</key>
+		<key>9BDFAE5EFF28111274BEC1767DFE717E29A064F0</key>
 		<string>ssh://github.com/flooptech/sdk-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SampleApp/SampleApp.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5F788724-E1F3-46F2-9418-32E820F8C92B</key>
+		<key>7FD6A9A16A763CA05816F4E95F10A71A9133D84E</key>
 		<string>../../../dist-sdk-ios</string>
-		<key>88E7ABD0-284D-45DC-B897-5A6174B54B9B</key>
+		<key>9BDFAE5EFF28111274BEC1767DFE717E29A064F0</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/flooptech/sdk-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>88E7ABD0-284D-45DC-B897-5A6174B54B9B</string>
+	<string>9BDFAE5EFF28111274BEC1767DFE717E29A064F0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5F788724-E1F3-46F2-9418-32E820F8C92B</string>
+			<string>7FD6A9A16A763CA05816F4E95F10A71A9133D84E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>dist-sdk-ios</string>
 		</dict>
@@ -44,7 +44,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>88E7ABD0-284D-45DC-B897-5A6174B54B9B</string>
+			<string>9BDFAE5EFF28111274BEC1767DFE717E29A064F0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>sdk-ios</string>
 		</dict>

@@ -10,7 +10,7 @@ In your project root, create (or edit) a Podfile with:
 
 ```
 
-pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.9.1"
+pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.9.2"
 
 ```
 
@@ -33,6 +33,8 @@ Find the latest documentation at:
 http://www.getfloop.com/documentation
 
 
+### Version 1.9.2.3 - 2014-10-08
+- minor bug fixes
 
 ### Version 1.9.2.2 - 2014-09-23
 - bugfixes to analytics
