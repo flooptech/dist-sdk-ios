@@ -33,6 +33,9 @@ Find the latest documentation at:
 http://www.getfloop.com/documentation
 
 
+### Version 1.9.2.4 - 2014-10-09
+- fixed potential symbol conflict bug
+
 ### Version 1.9.2.3 - 2014-10-08
 - minor bug fixes
 
