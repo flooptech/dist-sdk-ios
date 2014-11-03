@@ -32,6 +32,9 @@ http://www.getfloop.com/documentation
 Find the latest documentation at:
 http://www.getfloop.com/documentation
 
+### Version 2.0 - 2014-10-31
+- new version of the parental gate
+- Note that this version requires XCode 6.
 
 ### Version 1.9.2.4 - 2014-10-09
 - fixed potential symbol conflict bug

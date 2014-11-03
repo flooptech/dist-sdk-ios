@@ -11,17 +11,17 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>9BDFAE5EFF28111274BEC1767DFE717E29A064F0</key>
-		<string>ssh://github.com/flooptech/sdk-ios.git</string>
+		<string>github.com:flooptech/sdk-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SampleApp/SampleApp.xcodeproj/project.xcworkspace</string>
+	<string>sample/SampleApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9BDFAE5EFF28111274BEC1767DFE717E29A064F0</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/flooptech/sdk-ios.git</string>
+	<string>github.com:flooptech/sdk-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
