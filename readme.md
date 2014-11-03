@@ -32,6 +32,9 @@ http://www.getfloop.com/documentation
 Find the latest documentation at:
 http://www.getfloop.com/documentation
 
+### Version 2.0.1 - 2014-11-03
+- bug fix for gesture-style parental gate in landscape
+
 ### Version 2.0 - 2014-10-31
 - new version of the parental gate
 - Note that this version requires XCode 6.
