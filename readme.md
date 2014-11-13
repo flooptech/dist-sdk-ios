@@ -10,7 +10,7 @@ In your project root, create (or edit) a Podfile with:
 
 ```
 
-pod "Floop-iOS" # or use a specific version by adding eg: , "~> 1.9.2"
+pod "Floop-iOS" # or use a specific version by adding eg: , "~> 2.0"
 
 ```
 
@@ -31,6 +31,12 @@ http://www.getfloop.com/documentation
 
 Find the latest documentation at:
 http://www.getfloop.com/documentation
+
+### Version 2.0.3 - 2014-11-12
+- bug fix for autolayout on iOS7 with iPad landscape.
+
+### Version 2.0.2 - 2014-11-07
+- Added Japanese localization to the Parental Gate feature.
 
 ### Version 2.0.1 - 2014-11-03
 - bug fix for gesture-style parental gate in landscape
