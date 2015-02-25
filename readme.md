@@ -1,36 +1,19 @@
 
-
-This is the iOS version of the Floop SDK, a COPPA-compliant sharing platform for kids.
-
-## Installation
-
-### with Cocoapods
-
-In your project root, create (or edit) a Podfile with:
-
-```
-
-pod "Floop-iOS" # or use a specific version by adding eg: , "~> 2.0"
-
-```
-
-See http://cocoapods.org/ for more information on installing and using Cocoapods.
-
-
-### Manual installation:
-
-Please see https://four-iq.appspot.com/docs/sdk-ios/#/integrate-sdk-in-app
-
+This is the iOS version of the Floop SDK, a COPPA-compliant toolkit for kids apps developers.
 
 ## Documentation
 
 Find the latest documentation at:
 http://www.getfloop.com/documentation
 
+Known issues and FAQ are available here:
+http://www.getfloop.com/support
+
 ## Release Notes
 
-Find the latest documentation at:
-http://www.getfloop.com/documentation
+### Version 2.1 - 2015-02-12 
+- Updated Parental Gate to support 16 new languages:
+ - Indonesian, Danish, Korean, Dutch, Norwegian, Portuguese (Portugal), Portuguese, Swedish, Thai, Turkish, Finnish, Malay, Ukrainian, Vietnamese, Chinese, Chinese (Simplified)
 
 ### Version 2.0.3 - 2014-11-12
 - bug fix for autolayout on iOS7 with iPad landscape.
@@ -112,8 +95,3 @@ For more details see the documentation.
 - Kids upload their creation to the platform and parents receive an email.
 - Developers can customize assets for UI and email.
 - Cross promote other apps through our campaign system.
-
-## Disclaimer: Please send us an email before publishing to the app store.
-
-
-Known issues and FAQ are available here: http://getfloop.zendesk.com
