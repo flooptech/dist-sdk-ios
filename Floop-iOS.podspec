@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version  = '2.1.2'
   s.summary  = 'A COPPA-compliant sharing framework for kids apps.'
   s.author = { 'Floop' => 'support-dev@getfloop.com' }
-  s.homepage = 'https://getfloop.com/'
+  s.homepage = 'http://getfloop.com/'
   s.license = { :type => 'Commercial', :file => 'license.txt' }
   s.requires_arc = true
   s.ios.deployment_target = '6.0'
