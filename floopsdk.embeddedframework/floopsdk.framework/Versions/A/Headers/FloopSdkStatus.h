@@ -15,7 +15,6 @@ typedef enum {
     FloopSdkStatusLoggedOut,
     FloopSdkStatusWaitingForNetwork,
     FloopSdkStatusError,
-    FloopSdkStatusLoggedIn,
 }
 FloopSdkStatus;
 

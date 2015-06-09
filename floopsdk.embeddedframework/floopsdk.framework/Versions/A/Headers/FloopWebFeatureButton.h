@@ -10,5 +10,8 @@
 
 @interface FloopWebFeatureButton : UIButton
 
+@property (strong,nonatomic) NSString* funnelName;
+
+- (void)setup;
 
 @end

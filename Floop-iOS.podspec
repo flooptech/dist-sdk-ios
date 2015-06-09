@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name     = 'Floop-iOS'
-  s.version  = '2.1.2'
-  s.summary  = 'A COPPA-compliant sharing framework for kids apps.'
+  s.version  = '2.2'
+  s.summary  = 'A COPPA-compliant backend services for kids apps.'
   s.author = { 'Floop' => 'support-dev@getfloop.com' }
   s.homepage = 'http://getfloop.com/'
   s.license = { :type => 'Commercial', :file => 'license.txt' }

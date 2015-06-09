@@ -27,9 +27,7 @@
 
 /**
  `FloopSdkManager` is the main class through which to use the Floop SDK.
-
  It should be always be accessed via the `sharedInstance` singleton instance.
-
  */
 @interface FloopSdkManager : NSObject
 
@@ -62,45 +60,6 @@
  */
 - (void)showParentalGate:(FloopParentalGateCompletionBlock)completion;
 
-
-/**
- Shows a parent gate if necessary, and invokes the completion with a boolean indicating success.
-
- When exiting the parent zone, `exitParentZone` must be called.
- 
- The parent zone works as a stack, the parent gate appearing when the stack is empty.
- 
- */
-- (void)enterParentZone:(FloopParentalGateCompletionBlock)completion;
-
-/**
- 
- Exit the current parent zone.
-
- */
-- (void)exitParentZone;
-
-
-
-/**
- Shows the login screen if not authenticated, or an account status screen with logout button otherwise.
- */
-- (void)showAuthScreenAnimated:(BOOL)animated
-                    completion:(FloopAuthCompletionBlock)completion;
-
-/**
- Show the login screen if not authenticated, or an account status screen with logout button otherwise. 
- This version assumes a coppa-compliant parent gate has already been shown.
-*/
-- (void)showAuthScreenWithoutParentGateAnimated:(BOOL)animated
-                                     completion:(FloopAuthCompletionBlock)completion;
-
-/**
- Tries to share image via Floop. If not authenticated, first a parent gate is shown, and then the login screen.
- */
-- (void)shareImage:(UIImage*)image
-        completion:(FloopSharingCompletionBlock)completion;
-
 /**
  Returns the current status of the SDK.
  */
@@ -112,13 +71,6 @@
  */
 - (NSString*)currentStatusDescription;
 
-/**
- 
- Returns whether the SDK is in the loggedIn state.
- 
- */
-@property (nonatomic,readonly) BOOL loggedIn;
-
 
 - (void)showCrossPromotionPageWithName:(NSString *)name
                             completion:(FloopWebFeatureCompletion)completion
@@ -129,15 +81,6 @@
 ;
 
 - (void)trackAppEvent:(NSString *)eventName
-           parameters:(NSDictionary*)parameters
-;
-
-- (void)trackAppEvent:(NSString *)eventName
-              success:(BOOL)success
-;
-
-- (void)trackAppEvent:(NSString *)eventName
-              success:(BOOL)success
            parameters:(NSDictionary*)parameters
 ;
 

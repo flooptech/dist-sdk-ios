@@ -11,11 +11,14 @@ http://www.getfloop.com/support
 
 ## Release Notes
 
+### Version 2.2 - 2015-06-09
+- Removed Deprecated API: Sharing and Zones.
+
 ### Version 2.1.2 - 2015-05-19 
-- Fix Parental Gate localization for Malay and Ukrainian
+- Fix Parental Gate localization for Malay and Ukrainian.
 
 ### Version 2.1.1 - 2015-05-14 
-- Updated Parental Gate to support 1 new languages: Czech
+- Updated Parental Gate to support 1 new languages: Czech.
 
 ### Version 2.1 - 2015-02-12 
 - Updated Parental Gate to support 16 new languages:
@@ -28,20 +31,20 @@ http://www.getfloop.com/support
 - Added Japanese localization to the Parental Gate feature.
 
 ### Version 2.0.1 - 2014-11-03
-- bug fix for gesture-style parental gate in landscape
+- bug fix for gesture-style parental gate in landscape.
 
 ### Version 2.0 - 2014-10-31
 - new version of the parental gate
 - Note that this version requires XCode 6.
 
 ### Version 1.9.2.4 - 2014-10-09
-- fixed potential symbol conflict bug
+- fixed potential symbol conflict bug.
 
 ### Version 1.9.2.3 - 2014-10-08
-- minor bug fixes
+- minor bug fixes.
 
 ### Version 1.9.2.2 - 2014-09-23
-- bugfixes to analytics
+- bugfixes to analytics.
 
 ### Version 1.9.2.1 - 2014-09-12
 - Added Greek localization to the Parental Gate feature.
@@ -54,7 +57,7 @@ http://www.getfloop.com/support
 - Fixed intermittent crash issue with parental gate for arm64 builds.
 
 ### Version 1.9.0.1 - 2014-04-29
-- Fixed duplicate symbol issue with Reachability users
+- Fixed duplicate symbol issue with Reachability users.
 
 ### Version 1.9.0 - 2014-04-17
 - New Feature: Cross-Promotion. A button that shows a view where you can cross-promote your apps.
