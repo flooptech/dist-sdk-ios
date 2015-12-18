@@ -11,8 +11,9 @@ http://www.getfloop.com/support
 
 ## Release Notes
 
-### Version 2.2.1 - 2015-06-24 
-- Fixed Parental Gate Gesture UI
+### Version 3.0 - 2015-12-18
+- New Video Ads API
+- Parental Gate default style is now Math
 
 ### Version 2.2 - 2015-06-09
 - Removed Deprecated API: Sharing and Zones.
