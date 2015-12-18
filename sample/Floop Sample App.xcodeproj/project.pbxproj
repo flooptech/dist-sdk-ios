@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7248291C24C0870083EDED /* floopsdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D7248271C24C0870083EDED /* floopsdk.bundle */; };
+		4D72482A1C24C0870083EDED /* floopsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7248281C24C0870083EDED /* floopsdk.framework */; };
+		CC107EB51B90F0AC0008E301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC107EB41B90F0AC0008E301 /* main.m */; };
+		CC107EB81B90F0AC0008E301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC107EB71B90F0AC0008E301 /* AppDelegate.m */; };
+		CC107EBB1B90F0AC0008E301 /* Floop_Sample_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC107EB91B90F0AC0008E301 /* Floop_Sample_App.xcdatamodeld */; };
+		CC107EBE1B90F0AC0008E301 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC107EBD1B90F0AC0008E301 /* ViewController.m */; };
+		CC107EC11B90F0AC0008E301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC107EBF1B90F0AC0008E301 /* Main.storyboard */; };
+		CC107EC31B90F0AC0008E301 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC107EC21B90F0AC0008E301 /* Images.xcassets */; };
+		CC107EC61B90F0AC0008E301 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC107EC41B90F0AC0008E301 /* LaunchScreen.xib */; };
+		CC1FC8781BB35313001F4198 /* iphone - floop logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1FC8761BB35313001F4198 /* iphone - floop logo.png */; };
+		CC1FC8791BB35313001F4198 /* iphone - floop logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1FC8771BB35313001F4198 /* iphone - floop logo@2x.png */; };
+		CC1FC87B1BB35335001F4198 /* Iphone - BTN - Has Video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1FC87A1BB35335001F4198 /* Iphone - BTN - Has Video@2x.png */; };
+		CC1FC87E1BB3537E001F4198 /* ipad - floop logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1FC87C1BB3537E001F4198 /* ipad - floop logo.png */; };
+		CC1FC87F1BB3537E001F4198 /* ipad - floop logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1FC87D1BB3537E001F4198 /* ipad - floop logo@2x.png */; };
+		CC5252DF1B99EF430084AAD1 /* Ipad - BTN - Has Video.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252D91B99EF430084AAD1 /* Ipad - BTN - Has Video.png */; };
+		CC5252E01B99EF430084AAD1 /* Ipad - BTN - Has Video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252DA1B99EF430084AAD1 /* Ipad - BTN - Has Video@2x.png */; };
+		CC5252E11B99EF430084AAD1 /* Ipad - BTN - Parental Gate.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252DB1B99EF430084AAD1 /* Ipad - BTN - Parental Gate.png */; };
+		CC5252E21B99EF430084AAD1 /* Ipad - BTN - Parental Gate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252DC1B99EF430084AAD1 /* Ipad - BTN - Parental Gate@2x.png */; };
+		CC5252E31B99EF430084AAD1 /* Ipad - BTN - Show Video.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252DD1B99EF430084AAD1 /* Ipad - BTN - Show Video.png */; };
+		CC5252E41B99EF430084AAD1 /* Ipad - BTN - Show Video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252DE1B99EF430084AAD1 /* Ipad - BTN - Show Video@2x.png */; };
+		CC5252EA1B99EF500084AAD1 /* Iphone - BTN - Has Video.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252E51B99EF500084AAD1 /* Iphone - BTN - Has Video.png */; };
+		CC5252EB1B99EF500084AAD1 /* Iphone - BTN - Parental Gate.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252E61B99EF500084AAD1 /* Iphone - BTN - Parental Gate.png */; };
+		CC5252EC1B99EF500084AAD1 /* Iphone - BTN - Parental Gate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252E71B99EF500084AAD1 /* Iphone - BTN - Parental Gate@2x.png */; };
+		CC5252ED1B99EF500084AAD1 /* Iphone - BTN - Show Video.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252E81B99EF500084AAD1 /* Iphone - BTN - Show Video.png */; };
+		CC5252EE1B99EF500084AAD1 /* Iphone - BTN - Show Video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5252E91B99EF500084AAD1 /* Iphone - BTN - Show Video@2x.png */; };
+		CC5252F01B9A12B80084AAD1 /* Ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5252EF1B9A12B80084AAD1 /* Ipad.storyboard */; };
+		CC5252F51B9A36FC0084AAD1 /* UIViewController+LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5252F41B9A36FC0084AAD1 /* UIViewController+LandscapeViewController.m */; };
+		CC8AF0C51B90F5F400618F14 /* logo-floop-vector.png in Resources */ = {isa = PBXBuildFile; fileRef = CC8AF0C41B90F5F400618F14 /* logo-floop-vector.png */; };
+		CC8AF0CA1B91064500618F14 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0C61B91064500618F14 /* CoreImage.framework */; };
+		CC8AF0CB1B91064500618F14 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0C71B91064500618F14 /* CoreMedia.framework */; };
+		CC8AF0CC1B91064500618F14 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0C81B91064500618F14 /* CoreTelephony.framework */; };
+		CC8AF0CD1B91064500618F14 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0C91B91064500618F14 /* CoreVideo.framework */; };
+		CC8AF0DB1B9106E300618F14 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0CE1B9106E300618F14 /* Accelerate.framework */; };
+		CC8AF0DC1B9106E300618F14 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0CF1B9106E300618F14 /* AddressBook.framework */; };
+		CC8AF0DD1B9106E300618F14 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D01B9106E300618F14 /* AddressBookUI.framework */; };
+		CC8AF0DE1B9106E300618F14 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D11B9106E300618F14 /* AdSupport.framework */; };
+		CC8AF0DF1B9106E300618F14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D21B9106E300618F14 /* AVFoundation.framework */; };
+		CC8AF0E01B9106E300618F14 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D31B9106E300618F14 /* CFNetwork.framework */; };
+		CC8AF0E11B9106E300618F14 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D41B9106E300618F14 /* MediaPlayer.framework */; };
+		CC8AF0E21B9106E300618F14 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D51B9106E300618F14 /* MessageUI.framework */; };
+		CC8AF0E31B9106E300618F14 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D61B9106E300618F14 /* MobileCoreServices.framework */; };
+		CC8AF0E41B9106E300618F14 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D71B9106E300618F14 /* OpenGLES.framework */; };
+		CC8AF0E51B9106E300618F14 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D81B9106E300618F14 /* QuartzCore.framework */; };
+		CC8AF0E61B9106E300618F14 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0D91B9106E300618F14 /* Social.framework */; };
+		CC8AF0E71B9106E300618F14 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AF0DA1B9106E300618F14 /* SystemConfiguration.framework */; };
+		CCE55EC71BBD936D00772002 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE55EC61BBD936D00772002 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D7248271C24C0870083EDED /* floopsdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = floopsdk.bundle; sourceTree = "<group>"; };
+		4D7248281C24C0870083EDED /* floopsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = floopsdk.framework; sourceTree = "<group>"; };
+		CC107EAF1B90F0AC0008E301 /* Floop Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floop Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC107EB31B90F0AC0008E301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC107EB41B90F0AC0008E301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC107EB61B90F0AC0008E301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC107EB71B90F0AC0008E301 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC107EBA1B90F0AC0008E301 /* Floop_Sample_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Floop_Sample_App.xcdatamodel; sourceTree = "<group>"; };
+		CC107EBC1B90F0AC0008E301 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC107EBD1B90F0AC0008E301 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC107EC01B90F0AC0008E301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC107EC21B90F0AC0008E301 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC107EC51B90F0AC0008E301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC1FC8761BB35313001F4198 /* iphone - floop logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone - floop logo.png"; sourceTree = "<group>"; };
+		CC1FC8771BB35313001F4198 /* iphone - floop logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone - floop logo@2x.png"; sourceTree = "<group>"; };
+		CC1FC87A1BB35335001F4198 /* Iphone - BTN - Has Video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iphone - BTN - Has Video@2x.png"; sourceTree = "<group>"; };
+		CC1FC87C1BB3537E001F4198 /* ipad - floop logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad - floop logo.png"; sourceTree = "<group>"; };
+		CC1FC87D1BB3537E001F4198 /* ipad - floop logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad - floop logo@2x.png"; sourceTree = "<group>"; };
+		CC5252D91B99EF430084AAD1 /* Ipad - BTN - Has Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ipad - BTN - Has Video.png"; sourceTree = "<group>"; };
+		CC5252DA1B99EF430084AAD1 /* Ipad - BTN - Has Video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ipad - BTN - Has Video@2x.png"; sourceTree = "<group>"; };
+		CC5252DB1B99EF430084AAD1 /* Ipad - BTN - Parental Gate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ipad - BTN - Parental Gate.png"; sourceTree = "<group>"; };
+		CC5252DC1B99EF430084AAD1 /* Ipad - BTN - Parental Gate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ipad - BTN - Parental Gate@2x.png"; sourceTree = "<group>"; };
+		CC5252DD1B99EF430084AAD1 /* Ipad - BTN - Show Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ipad - BTN - Show Video.png"; sourceTree = "<group>"; };
+		CC5252DE1B99EF430084AAD1 /* Ipad - BTN - Show Video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ipad - BTN - Show Video@2x.png"; sourceTree = "<group>"; };
+		CC5252E51B99EF500084AAD1 /* Iphone - BTN - Has Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iphone - BTN - Has Video.png"; sourceTree = "<group>"; };
+		CC5252E61B99EF500084AAD1 /* Iphone - BTN - Parental Gate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iphone - BTN - Parental Gate.png"; sourceTree = "<group>"; };
+		CC5252E71B99EF500084AAD1 /* Iphone - BTN - Parental Gate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iphone - BTN - Parental Gate@2x.png"; sourceTree = "<group>"; };
+		CC5252E81B99EF500084AAD1 /* Iphone - BTN - Show Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iphone - BTN - Show Video.png"; sourceTree = "<group>"; };
+		CC5252E91B99EF500084AAD1 /* Iphone - BTN - Show Video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iphone - BTN - Show Video@2x.png"; sourceTree = "<group>"; };
+		CC5252EF1B9A12B80084AAD1 /* Ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ipad.storyboard; sourceTree = "<group>"; };
+		CC5252F31B9A36FC0084AAD1 /* UIViewController+LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LandscapeViewController.h"; sourceTree = "<group>"; };
+		CC5252F41B9A36FC0084AAD1 /* UIViewController+LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LandscapeViewController.m"; sourceTree = "<group>"; };
+		CC8AF0C41B90F5F400618F14 /* logo-floop-vector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-floop-vector.png"; sourceTree = "<group>"; };
+		CC8AF0C61B91064500618F14 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CC8AF0C71B91064500618F14 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CC8AF0C81B91064500618F14 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CC8AF0C91B91064500618F14 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CC8AF0CE1B9106E300618F14 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CC8AF0CF1B9106E300618F14 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CC8AF0D01B9106E300618F14 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		CC8AF0D11B9106E300618F14 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CC8AF0D21B9106E300618F14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CC8AF0D31B9106E300618F14 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CC8AF0D41B9106E300618F14 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CC8AF0D51B9106E300618F14 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CC8AF0D61B9106E300618F14 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CC8AF0D71B9106E300618F14 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CC8AF0D81B9106E300618F14 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC8AF0D91B9106E300618F14 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CC8AF0DA1B9106E300618F14 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CCE55EC61BBD936D00772002 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC107EAC1B90F0AC0008E301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE55EC71BBD936D00772002 /* StoreKit.framework in Frameworks */,
+				CC8AF0DB1B9106E300618F14 /* Accelerate.framework in Frameworks */,
+				4D72482A1C24C0870083EDED /* floopsdk.framework in Frameworks */,
+				CC8AF0DC1B9106E300618F14 /* AddressBook.framework in Frameworks */,
+				CC8AF0DD1B9106E300618F14 /* AddressBookUI.framework in Frameworks */,
+				CC8AF0DE1B9106E300618F14 /* AdSupport.framework in Frameworks */,
+				CC8AF0DF1B9106E300618F14 /* AVFoundation.framework in Frameworks */,
+				CC8AF0E01B9106E300618F14 /* CFNetwork.framework in Frameworks */,
+				CC8AF0E11B9106E300618F14 /* MediaPlayer.framework in Frameworks */,
+				CC8AF0E21B9106E300618F14 /* MessageUI.framework in Frameworks */,
+				CC8AF0E31B9106E300618F14 /* MobileCoreServices.framework in Frameworks */,
+				CC8AF0E41B9106E300618F14 /* OpenGLES.framework in Frameworks */,
+				CC8AF0E51B9106E300618F14 /* QuartzCore.framework in Frameworks */,
+				CC8AF0E61B9106E300618F14 /* Social.framework in Frameworks */,
+				CC8AF0E71B9106E300618F14 /* SystemConfiguration.framework in Frameworks */,
+				CC8AF0CA1B91064500618F14 /* CoreImage.framework in Frameworks */,
+				CC8AF0CB1B91064500618F14 /* CoreMedia.framework in Frameworks */,
+				CC8AF0CC1B91064500618F14 /* CoreTelephony.framework in Frameworks */,
+				CC8AF0CD1B91064500618F14 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7248261C24C0870083EDED /* floopsdk.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				4D7248271C24C0870083EDED /* floopsdk.bundle */,
+				4D7248281C24C0870083EDED /* floopsdk.framework */,
+			);
+			name = floopsdk.embeddedframework;
+			path = ../floopsdk.embeddedframework;
+			sourceTree = "<group>";
+		};
+		CC107EA61B90F0AC0008E301 = {
+			isa = PBXGroup;
+			children = (
+				4D7248261C24C0870083EDED /* floopsdk.embeddedframework */,
+				CC8AF0E81B9106EB00618F14 /* Frameworks */,
+				CC8AF0C31B90F5F400618F14 /* Images */,
+				CC107EB11B90F0AC0008E301 /* Floop Sample App */,
+				CC107EB01B90F0AC0008E301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC107EB01B90F0AC0008E301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC107EAF1B90F0AC0008E301 /* Floop Sample App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC107EB11B90F0AC0008E301 /* Floop Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				CC107EB61B90F0AC0008E301 /* AppDelegate.h */,
+				CC107EB71B90F0AC0008E301 /* AppDelegate.m */,
+				CC107EBC1B90F0AC0008E301 /* ViewController.h */,
+				CC107EBD1B90F0AC0008E301 /* ViewController.m */,
+				CC107EBF1B90F0AC0008E301 /* Main.storyboard */,
+				CC107EC21B90F0AC0008E301 /* Images.xcassets */,
+				CC107EC41B90F0AC0008E301 /* LaunchScreen.xib */,
+				CC107EB91B90F0AC0008E301 /* Floop_Sample_App.xcdatamodeld */,
+				CC107EB21B90F0AC0008E301 /* Supporting Files */,
+				CC5252EF1B9A12B80084AAD1 /* Ipad.storyboard */,
+				CC5252F31B9A36FC0084AAD1 /* UIViewController+LandscapeViewController.h */,
+				CC5252F41B9A36FC0084AAD1 /* UIViewController+LandscapeViewController.m */,
+			);
+			path = "Floop Sample App";
+			sourceTree = "<group>";
+		};
+		CC107EB21B90F0AC0008E301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC107EB31B90F0AC0008E301 /* Info.plist */,
+				CC107EB41B90F0AC0008E301 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC8AF0C31B90F5F400618F14 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CC1FC8761BB35313001F4198 /* iphone - floop logo.png */,
+				CC1FC8771BB35313001F4198 /* iphone - floop logo@2x.png */,
+				CC8AF0C41B90F5F400618F14 /* logo-floop-vector.png */,
+				CC1FC87C1BB3537E001F4198 /* ipad - floop logo.png */,
+				CC1FC87D1BB3537E001F4198 /* ipad - floop logo@2x.png */,
+				CC5252D91B99EF430084AAD1 /* Ipad - BTN - Has Video.png */,
+				CC5252DA1B99EF430084AAD1 /* Ipad - BTN - Has Video@2x.png */,
+				CC5252DB1B99EF430084AAD1 /* Ipad - BTN - Parental Gate.png */,
+				CC5252E51B99EF500084AAD1 /* Iphone - BTN - Has Video.png */,
+				CC1FC87A1BB35335001F4198 /* Iphone - BTN - Has Video@2x.png */,
+				CC5252E61B99EF500084AAD1 /* Iphone - BTN - Parental Gate.png */,
+				CC5252E71B99EF500084AAD1 /* Iphone - BTN - Parental Gate@2x.png */,
+				CC5252E81B99EF500084AAD1 /* Iphone - BTN - Show Video.png */,
+				CC5252E91B99EF500084AAD1 /* Iphone - BTN - Show Video@2x.png */,
+				CC5252DC1B99EF430084AAD1 /* Ipad - BTN - Parental Gate@2x.png */,
+				CC5252DD1B99EF430084AAD1 /* Ipad - BTN - Show Video.png */,
+				CC5252DE1B99EF430084AAD1 /* Ipad - BTN - Show Video@2x.png */,
+			);
+			name = Images;
+			path = "Floop Sample App/Images";
+			sourceTree = "<group>";
+		};
+		CC8AF0E81B9106EB00618F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE55EC61BBD936D00772002 /* StoreKit.framework */,
+				CC8AF0CE1B9106E300618F14 /* Accelerate.framework */,
+				CC8AF0CF1B9106E300618F14 /* AddressBook.framework */,
+				CC8AF0D01B9106E300618F14 /* AddressBookUI.framework */,
+				CC8AF0D11B9106E300618F14 /* AdSupport.framework */,
+				CC8AF0D21B9106E300618F14 /* AVFoundation.framework */,
+				CC8AF0D31B9106E300618F14 /* CFNetwork.framework */,
+				CC8AF0D41B9106E300618F14 /* MediaPlayer.framework */,
+				CC8AF0D51B9106E300618F14 /* MessageUI.framework */,
+				CC8AF0D61B9106E300618F14 /* MobileCoreServices.framework */,
+				CC8AF0D71B9106E300618F14 /* OpenGLES.framework */,
+				CC8AF0D81B9106E300618F14 /* QuartzCore.framework */,
+				CC8AF0D91B9106E300618F14 /* Social.framework */,
+				CC8AF0DA1B9106E300618F14 /* SystemConfiguration.framework */,
+				CC8AF0C61B91064500618F14 /* CoreImage.framework */,
+				CC8AF0C71B91064500618F14 /* CoreMedia.framework */,
+				CC8AF0C81B91064500618F14 /* CoreTelephony.framework */,
+				CC8AF0C91B91064500618F14 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC107EAE1B90F0AC0008E301 /* Floop Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC107ED51B90F0AC0008E301 /* Build configuration list for PBXNativeTarget "Floop Sample App" */;
+			buildPhases = (
+				CC107EAB1B90F0AC0008E301 /* Sources */,
+				CC107EAC1B90F0AC0008E301 /* Frameworks */,
+				CC107EAD1B90F0AC0008E301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Floop Sample App";
+			productName = "Floop Sample App";
+			productReference = CC107EAF1B90F0AC0008E301 /* Floop Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC107EA71B90F0AC0008E301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = floop;
+				TargetAttributes = {
+					CC107EAE1B90F0AC0008E301 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CC107EAA1B90F0AC0008E301 /* Build configuration list for PBXProject "Floop Sample App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC107EA61B90F0AC0008E301;
+			productRefGroup = CC107EB01B90F0AC0008E301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC107EAE1B90F0AC0008E301 /* Floop Sample App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC107EAD1B90F0AC0008E301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5252E31B99EF430084AAD1 /* Ipad - BTN - Show Video.png in Resources */,
+				CC1FC8781BB35313001F4198 /* iphone - floop logo.png in Resources */,
+				CC107EC11B90F0AC0008E301 /* Main.storyboard in Resources */,
+				CC5252EB1B99EF500084AAD1 /* Iphone - BTN - Parental Gate.png in Resources */,
+				CC5252EA1B99EF500084AAD1 /* Iphone - BTN - Has Video.png in Resources */,
+				CC5252ED1B99EF500084AAD1 /* Iphone - BTN - Show Video.png in Resources */,
+				CC1FC87E1BB3537E001F4198 /* ipad - floop logo.png in Resources */,
+				4D7248291C24C0870083EDED /* floopsdk.bundle in Resources */,
+				CC107EC61B90F0AC0008E301 /* LaunchScreen.xib in Resources */,
+				CC5252E21B99EF430084AAD1 /* Ipad - BTN - Parental Gate@2x.png in Resources */,
+				CC5252F01B9A12B80084AAD1 /* Ipad.storyboard in Resources */,
+				CC1FC87F1BB3537E001F4198 /* ipad - floop logo@2x.png in Resources */,
+				CC1FC8791BB35313001F4198 /* iphone - floop logo@2x.png in Resources */,
+				CC5252E41B99EF430084AAD1 /* Ipad - BTN - Show Video@2x.png in Resources */,
+				CC1FC87B1BB35335001F4198 /* Iphone - BTN - Has Video@2x.png in Resources */,
+				CC107EC31B90F0AC0008E301 /* Images.xcassets in Resources */,
+				CC5252E01B99EF430084AAD1 /* Ipad - BTN - Has Video@2x.png in Resources */,
+				CC5252E11B99EF430084AAD1 /* Ipad - BTN - Parental Gate.png in Resources */,
+				CC5252EE1B99EF500084AAD1 /* Iphone - BTN - Show Video@2x.png in Resources */,
+				CC5252EC1B99EF500084AAD1 /* Iphone - BTN - Parental Gate@2x.png in Resources */,
+				CC5252DF1B99EF430084AAD1 /* Ipad - BTN - Has Video.png in Resources */,
+				CC8AF0C51B90F5F400618F14 /* logo-floop-vector.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC107EAB1B90F0AC0008E301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC107EB81B90F0AC0008E301 /* AppDelegate.m in Sources */,
+				CC5252F51B9A36FC0084AAD1 /* UIViewController+LandscapeViewController.m in Sources */,
+				CC107EBB1B90F0AC0008E301 /* Floop_Sample_App.xcdatamodeld in Sources */,
+				CC107EBE1B90F0AC0008E301 /* ViewController.m in Sources */,
+				CC107EB51B90F0AC0008E301 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC107EBF1B90F0AC0008E301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC107EC01B90F0AC0008E301 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC107EC41B90F0AC0008E301 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC107EC51B90F0AC0008E301 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC107ED31B90F0AC0008E301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC107ED41B90F0AC0008E301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC107ED61B90F0AC0008E301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../floopsdk.embeddedframework",
+				);
+				INFOPLIST_FILE = "Floop Sample App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.floopsdk.floop.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC107ED71B90F0AC0008E301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../floopsdk.embeddedframework",
+				);
+				INFOPLIST_FILE = "Floop Sample App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.floopsdk.floop.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC107EAA1B90F0AC0008E301 /* Build configuration list for PBXProject "Floop Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC107ED31B90F0AC0008E301 /* Debug */,
+				CC107ED41B90F0AC0008E301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC107ED51B90F0AC0008E301 /* Build configuration list for PBXNativeTarget "Floop Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC107ED61B90F0AC0008E301 /* Debug */,
+				CC107ED71B90F0AC0008E301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC107EB91B90F0AC0008E301 /* Floop_Sample_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC107EBA1B90F0AC0008E301 /* Floop_Sample_App.xcdatamodel */,
+			);
+			currentVersion = CC107EBA1B90F0AC0008E301 /* Floop_Sample_App.xcdatamodel */;
+			path = Floop_Sample_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC107EA71B90F0AC0008E301 /* Project object */;
+}

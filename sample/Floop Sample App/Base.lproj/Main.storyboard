@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boE-Rl-ryE">
+                                <rect key="frame" x="22" y="273" width="264" height="253"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDm-ZQ-Siu">
+                                        <rect key="frame" x="0.0" y="33" width="262" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.44999999999999962" height="0.5499999999999996"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="262" id="4Qx-QT-eyZ"/>
+                                            <constraint firstAttribute="height" constant="1" id="qyr-NU-6Hm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km1-Qh-WWf" customClass="FloopVideoGalleryButton">
+                                        <rect key="frame" x="29" y="46" width="67" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="67" id="1kA-bB-CUv"/>
+                                            <constraint firstAttribute="height" constant="70" id="MXy-XN-Isk"/>
+                                        </constraints>
+                                        <state key="normal" title="VideoGBtn">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="galleryID" value="d414dc4e39dd4eba8901173df2ae064e"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQP-Sv-28a" customClass="FloopCrossPromotionButton">
+                                        <rect key="frame" x="173" y="46" width="67" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Udh-w0-Ecc"/>
+                                            <constraint firstAttribute="width" constant="67" id="nUv-6y-OdK"/>
+                                        </constraints>
+                                        <state key="normal" title="CrossPBtn">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Gallery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntW-TM-Aec">
+                                        <rect key="frame" x="17" y="109" width="91" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="D2d-75-8x8"/>
+                                            <constraint firstAttribute="width" constant="91" id="gna-pE-MEi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cross Promotion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcL-6P-S4r">
+                                        <rect key="frame" x="154" y="109" width="104" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="104" id="ih2-j0-NYI"/>
+                                            <constraint firstAttribute="height" constant="31" id="uXc-RB-xbg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXL-1d-jax">
+                                        <rect key="frame" x="0.0" y="174" width="256" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.44999999999999962" height="0.5499999999999996"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="Mzv-RQ-PPm"/>
+                                            <constraint firstAttribute="width" constant="256" id="NyB-sK-vFl"/>
+                                            <constraint firstAttribute="height" constant="1" id="VXb-wg-OeI"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="256" id="vOe-Tg-SzH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqV-z3-nFZ">
+                                        <rect key="frame" x="154" y="192" width="100" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="OFK-QU-sTT"/>
+                                            <constraint firstAttribute="height" constant="38" id="SZ2-oJ-BNd"/>
+                                            <constraint firstAttribute="height" constant="38" id="XkI-CQ-4q1"/>
+                                            <constraint firstAttribute="width" constant="100" id="sZJ-OL-xR7"/>
+                                        </constraints>
+                                        <state key="normal" image="Iphone - BTN - Show Video.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="XkI-CQ-4q1"/>
+                                                <exclude reference="sZJ-OL-xR7"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="XkI-CQ-4q1"/>
+                                                <include reference="sZJ-OL-xR7"/>
+                                            </mask>
+                                        </variation>
+                                        <connections>
+                                            <action selector="videoview:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ba6-To-UJ3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCI-94-k0v">
+                                        <rect key="frame" x="20" y="192" width="85" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="NzH-lL-kEm"/>
+                                            <constraint firstAttribute="width" constant="85" id="lPI-9c-x0y"/>
+                                        </constraints>
+                                        <state key="normal" image="Iphone - BTN - Has Video.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="testHasVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BpY-SQ-DPm"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIDEO ADS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGI-jc-kyb">
+                                        <rect key="frame" x="8" y="132" width="184" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="Dfy-hv-cub"/>
+                                            <constraint firstAttribute="width" constant="184" id="IpQ-o7-aHb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SERVICES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZF-yC-aba">
+                                        <rect key="frame" x="8" y="0.0" width="184" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="184" id="9RN-vD-v99"/>
+                                            <constraint firstAttribute="height" constant="34" id="hiF-Tb-fh8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="XcL-6P-S4r" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="109" id="1fq-xR-CeW"/>
+                                    <constraint firstAttribute="trailing" secondItem="CqV-z3-nFZ" secondAttribute="trailing" constant="10" id="9O2-p8-vDy"/>
+                                    <constraint firstItem="RDm-ZQ-Siu" firstAttribute="leading" secondItem="boE-Rl-ryE" secondAttribute="leading" id="Ac9-hh-hg1"/>
+                                    <constraint firstItem="pQP-Sv-28a" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="46" id="ELE-Hs-jsw"/>
+                                    <constraint firstItem="km1-Qh-WWf" firstAttribute="leading" secondItem="boE-Rl-ryE" secondAttribute="leading" constant="29" id="IVk-ru-ofb"/>
+                                    <constraint firstItem="ntW-TM-Aec" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="109" id="LEz-zi-iLD"/>
+                                    <constraint firstItem="DCI-94-k0v" firstAttribute="leading" secondItem="boE-Rl-ryE" secondAttribute="leading" constant="20" id="Mxv-Zd-3WC"/>
+                                    <constraint firstItem="eGI-jc-kyb" firstAttribute="leading" secondItem="boE-Rl-ryE" secondAttribute="leading" constant="8" id="QBA-kI-6Us"/>
+                                    <constraint firstItem="kZF-yC-aba" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" id="T1t-ZA-Vbf"/>
+                                    <constraint firstItem="ntW-TM-Aec" firstAttribute="leading" secondItem="boE-Rl-ryE" secondAttribute="leading" constant="17" id="ZRa-Xf-dfL"/>
+                                    <constraint firstItem="DCI-94-k0v" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="192" id="Zy8-bP-0Ei"/>
+                                    <constraint firstAttribute="trailing" secondItem="pQP-Sv-28a" secondAttribute="trailing" constant="24" id="czm-QF-Kjl"/>
+                                    <constraint firstAttribute="trailing" secondItem="XcL-6P-S4r" secondAttribute="trailing" constant="6" id="gqC-yG-DXg"/>
+                                    <constraint firstItem="RDm-ZQ-Siu" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="33" id="gqy-cv-kLs"/>
+                                    <constraint firstItem="km1-Qh-WWf" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="46" id="iee-BM-cn2"/>
+                                    <constraint firstItem="eGI-jc-kyb" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="132" id="lbr-SJ-tzl"/>
+                                    <constraint firstItem="CqV-z3-nFZ" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="192" id="pmG-xw-9ad"/>
+                                    <constraint firstItem="dXL-1d-jax" firstAttribute="leading" secondItem="boE-Rl-ryE" secondAttribute="leading" id="vGx-IT-dh1"/>
+                                    <constraint firstItem="kZF-yC-aba" firstAttribute="leading" secondItem="boE-Rl-ryE" secondAttribute="leading" constant="8" id="yJE-Rz-FbM"/>
+                                    <constraint firstItem="dXL-1d-jax" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="top" constant="174" id="yUR-MY-1da"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U7O-rV-I2c">
+                                <rect key="frame" x="43" y="42" width="222" height="199"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone - floop logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="MJp-5z-KcH">
+                                        <rect key="frame" x="8" y="14" width="170" height="67"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="67" id="W4o-OY-C9R"/>
+                                            <constraint firstAttribute="width" constant="170" id="pCb-MV-Qtv"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXx-Bg-cje">
+                                        <rect key="frame" x="8" y="119" width="200" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.44999999999999962" height="0.5499999999999996"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="oIb-yY-qCY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pl5-pI-csC">
+                                        <rect key="frame" x="32" y="134" width="170" height="38"/>
+                                        <state key="normal" image="Iphone - BTN - Parental Gate.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="parentalgatebtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6yE-aX-uLU"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PARENTAL GATE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTg-Jo-Kh8">
+                                        <rect key="frame" x="8" y="75" width="184" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="cHh-ei-QUM"/>
+                                            <constraint firstAttribute="width" constant="184" id="pV7-5U-i6Q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pl5-pI-csC" firstAttribute="top" secondItem="FTg-Jo-Kh8" secondAttribute="bottom" constant="8" id="2Nz-xC-njo"/>
+                                    <constraint firstItem="MJp-5z-KcH" firstAttribute="top" secondItem="U7O-rV-I2c" secondAttribute="top" constant="14" id="8Wx-o2-Drq"/>
+                                    <constraint firstAttribute="width" constant="222" id="9C0-nc-QLs"/>
+                                    <constraint firstItem="xXx-Bg-cje" firstAttribute="leading" secondItem="U7O-rV-I2c" secondAttribute="leading" constant="8" id="9dj-UF-n0T"/>
+                                    <constraint firstAttribute="centerX" secondItem="pl5-pI-csC" secondAttribute="centerX" constant="-6" id="L3g-yj-vQ6"/>
+                                    <constraint firstItem="FTg-Jo-Kh8" firstAttribute="top" secondItem="U7O-rV-I2c" secondAttribute="top" constant="75" id="YvG-Jo-hRO"/>
+                                    <constraint firstAttribute="height" constant="199" id="gPW-Dh-9Q0"/>
+                                    <constraint firstItem="MJp-5z-KcH" firstAttribute="leading" secondItem="U7O-rV-I2c" secondAttribute="leading" constant="8" id="h0b-mw-35K"/>
+                                    <constraint firstItem="xXx-Bg-cje" firstAttribute="top" secondItem="MJp-5z-KcH" secondAttribute="bottom" constant="38" id="kBP-Wb-MFh"/>
+                                    <constraint firstAttribute="trailing" secondItem="xXx-Bg-cje" secondAttribute="trailing" constant="14" id="tdn-TI-5Wn"/>
+                                    <constraint firstItem="FTg-Jo-Kh8" firstAttribute="leading" secondItem="U7O-rV-I2c" secondAttribute="leading" constant="8" id="vaO-xT-vKY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3411764706" green="0.66666666669999997" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="boE-Rl-ryE" firstAttribute="width" secondItem="U7O-rV-I2c" secondAttribute="width" constant="42" id="4hd-zH-A8b"/>
+                            <constraint firstItem="U7O-rV-I2c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="27" id="NJa-kf-oe9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="boE-Rl-ryE" secondAttribute="trailing" constant="18" id="krK-yg-sMK"/>
+                            <constraint firstItem="boE-Rl-ryE" firstAttribute="height" secondItem="U7O-rV-I2c" secondAttribute="height" constant="54" id="mPx-vC-6xj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="boE-Rl-ryE" secondAttribute="bottom" constant="42" id="r8Y-hR-nrm"/>
+                            <constraint firstItem="U7O-rV-I2c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="x5o-P6-jMa"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Iphone - BTN - Has Video.png" width="85" height="38"/>
+        <image name="Iphone - BTN - Parental Gate.png" width="170" height="38"/>
+        <image name="Iphone - BTN - Show Video.png" width="100" height="38"/>
+        <image name="iphone - floop logo.png" width="174" height="53"/>
+    </resources>
+</document>
