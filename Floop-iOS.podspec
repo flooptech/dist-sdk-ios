@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name     = 'Floop-iOS'
-  s.version  = '3.0'
+  s.version  = '3.0.1'
   s.summary  = 'A COPPA-compliant backend services for kids apps.'
   s.author = { 'Floop' => 'support-dev@getfloop.com' }
   s.homepage = 'http://getfloop.com/'
