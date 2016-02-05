@@ -11,6 +11,9 @@ http://www.getfloop.com/support
 
 ## Release Notes
 
+### Version 3.0.2 - 2016-02-05
+- Fix Locallization on Parental Gate.
+
 ### Version 3.0.1 - 2016-01-27
 - Minor bug fixes.
 
@@ -21,13 +24,13 @@ http://www.getfloop.com/support
 ### Version 2.2 - 2015-06-09
 - Removed Deprecated API: Sharing and Zones.
 
-### Version 2.1.2 - 2015-05-19
+### Version 2.1.2 - 2015-05-19 
 - Fix Parental Gate localization for Malay and Ukrainian.
 
-### Version 2.1.1 - 2015-05-14
+### Version 2.1.1 - 2015-05-14 
 - Updated Parental Gate to support 1 new languages: Czech.
 
-### Version 2.1 - 2015-02-12
+### Version 2.1 - 2015-02-12 
 - Updated Parental Gate to support 16 new languages:
  - Indonesian, Danish, Korean, Dutch, Norwegian, Portuguese (Portugal), Portuguese, Swedish, Thai, Turkish, Finnish, Malay, Ukrainian, Vietnamese, Chinese, Chinese (Simplified)
 
